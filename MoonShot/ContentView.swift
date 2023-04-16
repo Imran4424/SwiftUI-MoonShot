@@ -28,6 +28,7 @@ struct ContentView: View {
                                     .resizable()
                                     .scaledToFit()
                                     .frame(width: 100, height: 100)
+                                    .padding()
                                 
                                 VStack {
                                     Text(mission.displayName)
@@ -47,6 +48,7 @@ struct ContentView: View {
                         }
                     }
                 }
+                .padding([.horizontal, .bottom])
             }
             .navigationTitle("MoonShot")
         }
