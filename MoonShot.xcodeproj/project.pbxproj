@@ -18,6 +18,7 @@
 		1D764E8029EB2FBB00025B88 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D764E7F29EB2FBB00025B88 /* Mission.swift */; };
 		1D764E8229EBE5B700025B88 /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D764E8129EBE5B700025B88 /* ColorTheme.swift */; };
 		1D764E8429EBEBCB00025B88 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D764E8329EBEBCB00025B88 /* MissionView.swift */; };
+		1D764E8629EC3C8900025B88 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D764E8529EC3C8900025B88 /* AstronautView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		1D764E7F29EB2FBB00025B88 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		1D764E8129EBE5B700025B88 /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
 		1D764E8329EBEBCB00025B88 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		1D764E8529EC3C8900025B88 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				1D764E6F29EB26A300025B88 /* Preview Content */,
 				1D764E8129EBE5B700025B88 /* ColorTheme.swift */,
 				1D764E8329EBEBCB00025B88 /* MissionView.swift */,
+				1D764E8529EC3C8900025B88 /* AstronautView.swift */,
 			);
 			path = MoonShot;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			files = (
 				1D764E8429EBEBCB00025B88 /* MissionView.swift in Sources */,
 				1D764E7C29EB2B5600025B88 /* Astronaut.swift in Sources */,
+				1D764E8629EC3C8900025B88 /* AstronautView.swift in Sources */,
 				1D764E6C29EB26A200025B88 /* ContentView.swift in Sources */,
 				1D764E6A29EB26A200025B88 /* MoonShotApp.swift in Sources */,
 				1D764E8229EBE5B700025B88 /* ColorTheme.swift in Sources */,
