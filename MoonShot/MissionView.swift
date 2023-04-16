@@ -44,6 +44,11 @@ struct MissionView: View {
                             .frame(height: 2)
                             .foregroundColor(.lightBackground)
                             .padding(.vertical)
+                        
+                        // Crew title
+                        Text("Crew")
+                            .font(.title.bold())
+                            .padding(.bottom, 5)
                     }
                     .padding(.horizontal)
                     
