@@ -65,7 +65,7 @@ struct MissionView: View {
                                             .clipShape(Capsule())
                                             .overlay {
                                                 Capsule()
-                                                    .strokeBorder(.white, lineWidth: 1)
+                                                    .strokeBorder(crewMember.role == "Command Pilot" ? .red : .white, lineWidth: 1)
                                             }
                                         
                                         VStack(alignment: .leading) {
